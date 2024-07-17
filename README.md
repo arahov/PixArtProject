@@ -1,0 +1,29 @@
+1 the project is created with Eclipse
+2 you need to get TestNG library 
+3 you need selenium library 
+4 and selenium webdriver for chrome should be installed in the machine 
+
+5- add dependencies in pom.xml file 
+or download the jars like i did
+<dependencies>
+   <dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-api</artifactId>
+   </dependency>
+   <dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-api</artifactId>
+     <type>test-jar</type>
+     <version>${project.version}</version>
+     <scope>test</scope>
+   </dependency>
+ </dependencies>
+ <dependency>
+	<groupId>io.rest-assured</groupId>
+	<artifactId>rest-assured</artifactId>
+	<version>5.5.0</version>
+</dependency>
+
+# to start the test just Run As TestNG test
+
+as of the Icon mentioned in the tasks when browser cache is cleared this will disappear !!
